@@ -1,5 +1,5 @@
 # Jack in a Box Simulation 
-
+Author: Pushkar Dave
 ## Frames and Transformations
 The image below depicts the frames used for modeling the dynamics of the system. There are in total **11** frames, the `World` frame, the `Box` frame at the box's geometrical center and the `Jack` frame at the jack's geometrical center. To accurately check for impacts, there are **8** additional frames, **4** for each corner of the Jack, labelled `r1` through `r4` and **4** for each side of the box (located at the center of each side), labelled  `p1` through `p4`.
 ![image](./Frames.png)
